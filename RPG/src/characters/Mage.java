@@ -14,4 +14,14 @@ public class Mage extends AbstractCharacter {
         // TODO: implementar ataque do mago
     }
 
+    @Override
+    public String getArt() {
+        return
+            "  + * * +  \n" +
+            "    (O)    \n" +
+            "    \\|/   \n" +
+            "     |     \n" +
+            "    /^\\   \n";
+    }
+
 }

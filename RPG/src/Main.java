@@ -2,7 +2,7 @@ import characters.Warrior;
 import characters.Archer;
 import characters.Mage;
 import enemies.Goblin;
-import enemies.Dragon;
+import enemies.boss.Dragon;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Main {
         Mage mage = new Mage("Gandalf");
 
         Goblin goblin = new Goblin("Grak");
-        Dragon dragon = new Dragon("Placidusax");
+        Dragon dragon = new Dragon("Placidusax", 1);
 
         System.out.println(warrior);
         System.out.println(archer);

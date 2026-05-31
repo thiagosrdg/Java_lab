@@ -14,4 +14,14 @@ public class Warrior extends AbstractCharacter {
         // TODO: implementar ataque do guerreiro
     }
 
+    @Override
+    public String getArt() {
+        return
+            "    _O_    \n" +
+            "   [===]   \n" +
+            "   -)|(-   \n" +
+            "   [###]   \n" +
+            "   /   \\  \n";
+    }
+
 }

@@ -14,4 +14,14 @@ public class Archer extends AbstractCharacter {
         // TODO: implementar ataque do arqueiro
     }
 
+    @Override
+    public String getArt() {
+        return
+            "     O     \n" +
+            "    \\|     \n" +
+            "   ) |-->> \n" +
+            "    /|     \n" +
+            "   / |     \n";
+    }
+
 }
